@@ -5,7 +5,7 @@ namespace DAL
 {
     public class MyDbContext : DbContext
     {
-        public MyDbContext() : base("name=MyConnectionString") { }
+        public MyDbContext() : base("name=Quanlybida_db") { }
 
         public DbSet<TaiKhoan> TaiKhoans { get; set; }
     }
